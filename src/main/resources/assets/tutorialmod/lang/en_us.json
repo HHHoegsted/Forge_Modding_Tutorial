@@ -2,5 +2,7 @@
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
   "item.tutorialmod.alexandrite_block": "Block of Alexandrite",
-  "item.tutorialmod.raw_alexandrite_block" : "Block of Raw Alexandrite"
+  "item.tutorialmod.raw_alexandrite_block" : "Block of Raw Alexandrite",
+  "creativetab.tutorialmod.alexandrite_items" : "Alexandrite Items",
+  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks"
 }
