@@ -2,6 +2,7 @@ package com.hoegsted.tutorialmod.item;
 
 import com.hoegsted.tutorialmod.TutorialMod;
 import com.hoegsted.tutorialmod.item.custom.ChiselItem;
+import com.hoegsted.tutorialmod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,6 +21,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32).setId(ITEMS.key("chisel"))));
+
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            ()-> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI, ModConsumables.KOHLRABI).setId(ITEMS.key("kohlrabi"))));
+
+    public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
+            ()-> new FuelItem(new Item.Properties().setId(ITEMS.key("aurora_ashes")), 1200));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
