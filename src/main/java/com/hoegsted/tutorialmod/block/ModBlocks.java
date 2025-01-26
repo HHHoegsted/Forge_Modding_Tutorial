@@ -1,6 +1,7 @@
 package com.hoegsted.tutorialmod.block;
 
 import com.hoegsted.tutorialmod.TutorialMod;
+import com.hoegsted.tutorialmod.block.custom.MagicBlock;
 import com.hoegsted.tutorialmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -54,6 +55,13 @@ public class ModBlocks {
                     .sound(SoundType.DEEPSLATE)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("tutorialmod:alexandrite_deepslate_ore")))
             )));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("tutorialmod:magic_block")))
+            ));
 
 
 
