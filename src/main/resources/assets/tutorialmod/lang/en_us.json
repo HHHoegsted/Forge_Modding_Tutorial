@@ -1,5 +1,7 @@
 {
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
+  "item.tutorialmod.alexandrite_ore": "Alexandrite Ore",
+  "item.tutorialmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
   "item.tutorialmod.alexandrite_block": "Block of Alexandrite",
   "item.tutorialmod.raw_alexandrite_block" : "Block of Raw Alexandrite",
